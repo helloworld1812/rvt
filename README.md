@@ -79,6 +79,9 @@ Again, note that this network doesn't allow `127.0.0.1`. If you want to access
 the console, you have to do so from it's external IP or add `127.0.0.1` to the
 mix.
 
+Finally, if you want to access to console from everywhere (or you have to filter
+traffic on another level) just set blank value in `config.rvt.whitelisted_ips`.
+
 ### config.rvt.default_mount_path
 
 By default, the console will be automatically mounted on `/console`.
